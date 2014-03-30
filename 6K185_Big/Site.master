@@ -14,10 +14,13 @@
         <div class="header">
             <div class="title">
                 <h1>
-                    My ASP.NET Application
+                    BIg Broghters big sisters
                 </h1>
             </div>
             <div class="loginDisplay">
+                &nbsp;
+                <asp:Image ID="Logo" runat="server" Height="39px" ImageUrl="~/image/logo.png" Width="111px" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
                     <AnonymousTemplate>
                         [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
@@ -45,7 +48,7 @@
     </div>
     <div class="footer">
         
-    </div>
+        6K185 Big Group</div>
     </form>
 </body>
 </html>
