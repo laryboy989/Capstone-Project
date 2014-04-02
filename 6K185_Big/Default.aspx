@@ -5,13 +5,35 @@
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <h2>
-        Welcome to ASP.NET!
-    </h2>
-    <p>
-        To learn more about ASP.NET visit <a href="http://www.asp.net" title="ASP.NET Website">www.asp.net</a>.
-    </p>
-    <p>
-        You can also find <a href="http://go.microsoft.com/fwlink/?LinkID=152368&amp;clcid=0x409"
-            title="MSDN ASP.NET Docs">documentation on ASP.NET at MSDN</a>.
-    </p>
+        Let us start something now!</h2>
+    <div id="leftside">
+        <h3>Look What You've Started</h3>
+        Recent news about BBBS (needed to be filled in)
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </div>
+    <div id="rightside">
+         
+        <asp:Image ID="BBBS1" runat="server" Height="277px" ImageUrl="~/image/BBBS1.jpg" Width="321px" />   
+        </div>
+    
 </asp:Content>

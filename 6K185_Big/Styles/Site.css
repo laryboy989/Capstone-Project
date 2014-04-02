@@ -34,7 +34,17 @@ p
     direction: ltr;
 }
 
+#leftside {
+    float:left;
+    margin:2px 2px 2px 2px;
+    width:460px;
+}
 
+#rightside {float:right;
+    margin:2px 2px 2px 2px;
+    padding:5px 5px 5px 5px;
+    width:auto;
+}
 /* HEADINGS   
 ----------------------------------------------------------*/
 

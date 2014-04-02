@@ -15,7 +15,7 @@
             <div class="title">
        
                 <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
-                 BIg Broghters Big Sisters
+                 Big Broghters Big Sisters
                 </h1>
             </div>
             <div class="loginDisplay">
@@ -36,6 +36,9 @@
                 <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
                     <Items>
                         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
+                        <asp:MenuItem NavigateUrl="~/volunteer.aspx" Text="Volunteer" Value="Volunteer"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/big.aspx" Text="Big" Value="Big"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/little.aspx" Text="Little" Value="Little"></asp:MenuItem>
                         <asp:MenuItem NavigateUrl="~/About.aspx" Text="About"/>
                     </Items>
                 </asp:Menu>
