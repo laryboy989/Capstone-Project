@@ -13,14 +13,15 @@
     <div class="page">
         <div class="header">
             <div class="title">
-                <h1>
-                    BIg Broghters big sisters
+       
+                <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
+                 BIg Broghters Big Sisters
                 </h1>
             </div>
             <div class="loginDisplay">
+                <asp:Image ID="Image1" runat="server" Height="50px" ImageUrl="~/image/logo.png" Width="128px" />   
                 &nbsp;
-                <asp:Image ID="Logo" runat="server" Height="39px" ImageUrl="~/image/logo.png" Width="111px" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
                     <AnonymousTemplate>
                         [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]

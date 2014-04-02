@@ -3,7 +3,7 @@
 
 body   
 {
-    background: #b6b7bc;
+    background: white;
     font-size: .80em;
     font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
     margin: 0px;
@@ -100,17 +100,19 @@ first child of the left and right table columns */
     position: relative;
     margin: 0px;
     padding: 0px;
-    background: #4b6c9e;
+    background: white;
     width: 100%;
 }
 
 .header h1
 {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
     font-weight: 700;
-    margin: 0px;
+    margin: 0px 0px 0px 160px;
     padding: 0px 0px 0px 20px;
-    color: #f9f9f9;
-    border: none;
+    color: grey;
     line-height: 2em;
     font-size: 2em;
 }
@@ -145,8 +147,9 @@ first child of the left and right table columns */
 
 div.hideSkiplink
 {
-    background-color:#3a4f63;
+    background-color:lightgrey;
     width:100%;
+    border:1px solid black;
 }
 
 div.menu
@@ -164,9 +167,9 @@ div.menu ul
 
 div.menu ul li a, div.menu ul li a:visited
 {
-    background-color: #465c71;
-    border: 1px #4e667d solid;
-    color: #dde4ec;
+    background-color: lightblue;
+    border: 1px black solid;
+    color: black;
     display: block;
     line-height: 1.35em;
     padding: 4px 20px;
@@ -177,7 +180,7 @@ div.menu ul li a, div.menu ul li a:visited
 div.menu ul li a:hover
 {
     background-color: #bfcbd6;
-    color: #465c71;
+    color: purple;
     text-decoration: none;
 }
 
@@ -250,7 +253,8 @@ div.accountInfo
     display: block;
     float: left;
     text-align: left;
-    width: auto;
+    width: 623px;
+    height: 67px;
 }
 
 .loginDisplay
@@ -264,17 +268,17 @@ div.accountInfo
 
 .loginDisplay a:link
 {
-    color: white;
+    color: black;
 }
 
 .loginDisplay a:visited
 {
-    color: white;
+    color: black;
 }
 
 .loginDisplay a:hover
 {
-    color: white;
+    color: black;
 }
 
 .failureNotification
