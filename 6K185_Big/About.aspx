@@ -14,12 +14,25 @@
 
 <div id="rightside">
          
-        <asp:Image ID="BBS2" runat="server" Height="277px" ImageUrl="~/image/BBS2.jpg" Width="321px" />   
+        <asp:Image ID="BBS2" runat="server" Height="277px" ImageUrl="~/image/BBS2.jpg" Width="345px" />   
+    <h3>The results
+        </h3>
+    <p>
+        “These dramatic findings are very good news, particularly at 
+    <br />
+            a time when many people contend that ‘nothing works’ in <br />reaching teenagers,” said Gary Walker, then-President of <br />Public/Private Ventures. “This program suggests a strategy<br /> the country can build on to make a difference, especially for <br />youth in single-parent families.
+    </p>
         </div>
     
         <div id="leftside">
          
-        <asp:Image ID="BB3" runat="server" Height="248px" ImageUrl="~/image/BB3.jpg" Width="339px" />   
+        <asp:Image ID="BB3" runat="server" Height="282px" ImageUrl="~/image/BB3.jpg" Width="407px" />  
+            
+            <h3>
+                Our Impact
+                </h3> 
+            <p>Each time Big Brothers Big Sisters pairs a child with a role model, we start something incredible: a one-to-one relationship built on trust and friendship that can blossom into a future of unlimited potential. And thanks to the first-ever nationwide impact study of a mentoring organization, we have the facts to prove it.</p>
+
         </div>
 
 
