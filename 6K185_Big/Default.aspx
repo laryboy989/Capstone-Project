@@ -40,23 +40,7 @@
         <a href="http://www.bbbs.org/site/c.9iILI3NGKhK6F/b.5961035/k.A153/Big_impact8212proven_results.htm"> Learn More</a> 
         <br />
         <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        <asp:Image ID="Littles" runat="server" Height="277px" ImageUrl="~/image/littles.jpg" Width="524px" alt=" Littles from Kapa'a Elementary School!"/><p style="margin-left:120px">Littles from Kapa'a Elementary School!</p>
     </div>
     <div id="rightside">
          
@@ -64,6 +48,17 @@
         <br />
         <br />
           <asp:Image ID="twitter" runat="server" Height="331px" ImageUrl="~/image/twitter.png" Width="321px" /> 
-        </div>
-    
+        
+        <h2>Contact us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h2>
+        <br />BY MAIL
+        <br />Big Brothers Big Sisters of Johnson County
+        <br />3109 Old Hwy 218 South
+        <br />Iowa City, IA 52246
+        <br /><br />
+        BY PHONE
+        <br />319-337-2145
+        <br /><br />
+        BY FAX
+        <br />319-337-7864
+    </div>
 </asp:Content>

@@ -2,8 +2,9 @@
 ----------------------------------------------------------*/
 
 body   
-{
-    background: white;
+{background-color:lightyellow;
+    background-image:url(image/BG.jpg);
+    background-repeat:repeat;
     font-size: .80em;
     font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
     margin: 0px;
@@ -157,7 +158,7 @@ first child of the left and right table columns */
 
 div.hideSkiplink
 {
-    background-color:lightgrey;
+    background-color:purple;
     width:100%;
     border:1px solid black;
 }
