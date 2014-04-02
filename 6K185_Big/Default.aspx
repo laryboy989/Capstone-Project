@@ -8,9 +8,10 @@
         Let us start something now!</h2>
     <div id="leftside">
         <h3>Look What You've Started</h3>
-        Recent news about BBBS (needed to be filled in)
+        <a href="http://www.bbbs.org/site/c.9iILI3NGKhK6F/b.5961041/k.C14B/Bowl_a_strike_make_an_impact.htm"> Learn More About Our Bowling For Kids Sake Fundraiser</a> 
         <br />
         <br />
+        <a href="http://www.bbbs.org/site/c.9iILI3NGKhK6F/b.5961035/k.A153/Big_impact8212proven_results.htm"> Click to see our proven results across local communities</a> 
         <br />
         <br />
         <br />
