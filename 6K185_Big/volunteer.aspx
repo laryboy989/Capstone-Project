@@ -16,7 +16,9 @@ City: <input type="text" name="City"/><br/><br />
 State: <input type="text" name="State"/><br/><br />
 Zip Code: <input type="text" name="ZipCode"/><br/><br />
 
-<input type="submit"/>
+<input type="submit"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    Click <a href="Survey.aspx">here</a> to go to a small survey.
 
 
 
@@ -24,7 +26,7 @@ Zip Code: <input type="text" name="ZipCode"/><br/><br />
 
 
 
-
+    
 
 </h3>
 
