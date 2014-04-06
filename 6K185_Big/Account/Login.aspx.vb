@@ -6,4 +6,5 @@ Partial Class Account_Login
         RegisterHyperLink.NavigateUrl = "Register.aspx?ReturnUrl=" + HttpUtility.UrlEncode(Request.QueryString("ReturnUrl"))
     End Sub
 
+
 End Class
