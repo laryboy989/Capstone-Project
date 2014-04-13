@@ -30,7 +30,7 @@ Partial Class little
 
             'Insert a new record into UserProfiles
             Dim connectionString As String = ConfigurationManager.ConnectionStrings("cs_big").ConnectionString
-            Dim updatesql As String = "INSERT INTO [Big_little] ([UserID], [LittleFN], [littleLN], [city]) VALUES (@userId. @FirstName, @lastName, @City)"
+            Dim updatesql As String = "INSERT INTO [Big_little] ([UserID], [LittleFN], [littleLN], [city]) VALUES (@userId, @FirstName, @lastName, @City)"
 
             Using myConnection As New SqlConnection(connectionString)
                 myConnection.Open()
