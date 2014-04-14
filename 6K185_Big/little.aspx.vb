@@ -21,6 +21,14 @@ Partial Class little
             Dim FirstName As TextBox = CType(UserSetting.FindControl("tb_FirstName"), TextBox)
             Dim LastName As TextBox = CType(UserSetting.FindControl("tb_LastName"), TextBox)
             Dim City As TextBox = CType(UserSetting.FindControl("tb_City"), TextBox)
+            Dim streetaddress As TextBox = CType(UserSetting.FindControl("tb_streetad"), TextBox)
+            Dim state As TextBox = CType(UserSetting.FindControl("tb_state"), TextBox)
+            Dim postcode As TextBox = CType(UserSetting.FindControl("tb_postcode"), TextBox)
+            Dim phone As TextBox = CType(UserSetting.FindControl("tb_phone"), TextBox)
+            Dim email As TextBox = CType(UserSetting.FindControl("tb_email"), TextBox)
+            Dim availabletime As TextBox = CType(UserSetting.FindControl("tb_availabletime"), TextBox)
+            Dim interestactivities As TextBox = CType(UserSetting.FindControl("tb_interestactivities"), TextBox)
+
 
             Dim newUser As MembershipUser = Membership.GetUser(CreateUserWizard1.UserName)
             Dim newUserID As Guid = CType(newUser.ProviderUserKey, Guid)
@@ -30,7 +38,7 @@ Partial Class little
 
             'Insert a new record into UserProfiles
             Dim connectionString As String = ConfigurationManager.ConnectionStrings("cs_big").ConnectionString
-            Dim updatesql As String = "INSERT INTO [Big_little] ([UserID], [LittleFN], [littleLN], [city]) VALUES (@userId, @FirstName, @lastName, @City)"
+            Dim updatesql As String = "INSERT INTO [Big_little] ([UserID], [LittleFN], [littleLN], [city], [streetAddress],[state],[postcode],[phone],[emailaddress],[availabletime],[interetactivities]) VALUES (@userId, @FirstName, @lastName, @City,@streetaddress,@state,@postcode,@phone,@email,@availabletime,@interestactivities)"
 
             Using myConnection As New SqlConnection(connectionString)
                 myConnection.Open()
@@ -41,6 +49,13 @@ Partial Class little
                 myCommand.Parameters.AddWithValue("@LastName", LastName.Text.Trim())
                 myCommand.Parameters.AddWithValue("@city", City.Text.Trim())
                 myCommand.Parameters.AddWithValue("@UserId", newUserID)
+                myCommand.Parameters.AddWithValue("@streetAddress", streetaddress.Text.Trim())
+                myCommand.Parameters.AddWithValue("@state", state.Text.Trim())
+                myCommand.Parameters.AddWithValue("@postcode", postcode.Text.Trim())
+                myCommand.Parameters.AddWithValue("@phone", phone.Text.Trim())
+                myCommand.Parameters.AddWithValue("@email", email.Text.Trim())
+                myCommand.Parameters.AddWithValue("@availabletime", availabletime.Text.Trim())
+                myCommand.Parameters.AddWithValue("@interestactivities", interestactivities.Text.Trim())
                 myCommand.ExecuteNonQuery()
                 myConnection.Close()
             End Using
