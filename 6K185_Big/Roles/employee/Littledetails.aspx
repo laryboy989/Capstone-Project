@@ -66,6 +66,7 @@
                 <asp:BoundField DataField="matchstatus" HeaderText="Match Status" SortExpression="matchstatus" />
                 <asp:BoundField DataField="availabletime" HeaderText="Available Time" SortExpression="availabletime" />
                 <asp:BoundField DataField="interetactivities" HeaderText="Interactivities" SortExpression="interetactivities" />
+                <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" ShowInsertButton="True" />
             </Fields>
             <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
             <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
