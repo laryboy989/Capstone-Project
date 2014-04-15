@@ -3,11 +3,9 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server">
-    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="userID" DataSourceID="SqlDataSource1" AllowPaging="True" AllowSorting="True" CellPadding="4" ForeColor="#333333" GridLines="None">
+    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="userID" DataSourceID="SqlDataSource1" AllowPaging="True" AllowSorting="True" CellPadding="4" ForeColor="#333333" GridLines="None" Height="302px" Width="753px">
         <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
         <Columns>
-            <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
-            <asp:BoundField DataField="userID" HeaderText="User ID" ReadOnly="True" SortExpression="userID" />
             <asp:BoundField DataField="littleFN" HeaderText="First Name" SortExpression="littleFN" />
             <asp:BoundField DataField="littleLN" HeaderText="Last Name" SortExpression="littleLN" />
             <asp:BoundField DataField="city" HeaderText="City" SortExpression="city" />
@@ -15,10 +13,7 @@
             <asp:BoundField DataField="state" HeaderText="State" SortExpression="state" />
             <asp:BoundField DataField="postcode" HeaderText="Postal Code" SortExpression="postcode" />
             <asp:BoundField DataField="phone" HeaderText="Phone Number" SortExpression="phone" />
-            <asp:BoundField DataField="emailaddress" HeaderText="Email Address" SortExpression="emailaddress" />
-            <asp:BoundField DataField="matchstatus" HeaderText="Match Status" SortExpression="matchstatus" />
-            <asp:BoundField DataField="availabletime" HeaderText="Available Time" SortExpression="availabletime" />
-            <asp:BoundField DataField="interetactivities" HeaderText="Interactivities" SortExpression="interetactivities" />
+            <asp:HyperLinkField DataNavigateUrlFields="userID" DataNavigateUrlFormatString="Littledetails.aspx?userID={0}" Text="View Details" />
         </Columns>
         <EditRowStyle BackColor="#999999" />
         <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />

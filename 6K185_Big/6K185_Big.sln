@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 2012 for Web
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "6K185_Big", ".", "{97E17AF2-2A06-4CE4-B103-C233B23AE74A}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "6K185_Big", ".", "{A651D48F-96DE-4D99-ADE6-1F911D36DA27}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/6K185_Big"
@@ -18,7 +18,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "6K185_Big", ".", "{97E17AF2
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "61047"
+		VWDPort = "59978"
 	EndProjectSection
 EndProject
 Global
@@ -26,8 +26,8 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{97E17AF2-2A06-4CE4-B103-C233B23AE74A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{97E17AF2-2A06-4CE4-B103-C233B23AE74A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A651D48F-96DE-4D99-ADE6-1F911D36DA27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A651D48F-96DE-4D99-ADE6-1F911D36DA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
