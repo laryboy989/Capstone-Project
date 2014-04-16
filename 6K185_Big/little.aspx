@@ -57,13 +57,34 @@
                         <td align="right">Time Available:</td><td align="left" class="auto-style1">
                         <asp:Textbox ID="tb_availabletime" runat="server" colunmns="50"></asp:Textbox></td>
                     </tr>
-                    <tr>
-                        <td align="right">Interest Activities:</td><td align="left" class="auto-style1"><asp:Textbox ID="tb_interestactivities" runat="server" colunmns="50"></asp:Textbox></td>
-                    </tr>
+                    
                      
                  </table>
 
 
+                </asp:WizardStep>
+
+
+                <asp:WizardStep ID="MoreOptions" runat="server" StepType="Step" Title="MoreOptions">
+                
+                <table>
+                   <tr>
+                        <td align="right">Favorite Activities:</td><td align="left" class="auto-style1"><asp:Textbox ID="tb_faractivities" runat="server" colunmns="50"></asp:Textbox></td>
+                    </tr>
+                     
+                     <tr>
+                        <td align="right">Which describes your personality the best? </td><td align="left" class="auto-style1"><asp:Textbox ID="tb_personality" runat="server" colunmns="50"></asp:Textbox></td>
+                    </tr>
+
+                    <tr>
+                        <td align="right">Which is your favoriate School subject?</td><td align="left" class="auto-style1"><asp:Textbox ID="tb_schoolsubject" runat="server" colunmns="50"></asp:Textbox></td>
+                    </tr>
+
+                    <tr>
+                        <td align="right">What is your favorate sport?  </td><td align="left" class="auto-style1"><asp:Textbox ID="tb_sport" runat="server" colunmns="50"></asp:Textbox></td>
+                    </tr>
+                 </table>
+                
                 </asp:WizardStep>
 
 
