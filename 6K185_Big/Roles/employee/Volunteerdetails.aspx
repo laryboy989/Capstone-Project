@@ -5,9 +5,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <form id="form1" runat="server">
+         <div class="page">
+        <div class="header">
+            <div class="title">
+       
+     <h1>Volunteer Information &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        </h1>
+         </div>
+    <br />
+    <br />
+    <br />
+    <br />
     <div>
     
         <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
@@ -92,6 +104,7 @@
             <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
             <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
         </asp:DetailsView>
+    <h3><a href="Volunteertable.aspx" >Back To Volunteers</a></h3>
     </form>
 </body>
 </html>
