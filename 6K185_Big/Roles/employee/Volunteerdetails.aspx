@@ -97,7 +97,7 @@
                 <asp:BoundField DataField="schoolsubject" HeaderText="Favorite Subject" SortExpression="schoolsubject" />
                 <asp:BoundField DataField="sport" HeaderText="Favorite Sport" SortExpression="sport" />
                 <asp:BoundField DataField="phone" HeaderText="Phone Number" SortExpression="phone" />
-                <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" ShowInsertButton="True" />
+                <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
             </Fields>
             <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
             <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />

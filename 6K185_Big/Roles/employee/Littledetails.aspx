@@ -25,7 +25,7 @@
         <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
     
     </div>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:cs_Big %>" DeleteCommand="DELETE FROM [Big_little] WHERE [userID] = @userID" InsertCommand="INSERT INTO [Big_little] ([userID], [littleFN], [littleLN], [city], [streetAddress], [state], [postcode], [phone], [emailaddress], [matchstatus], [availabletime], [interetactivities], [image]) VALUES (@userID, @littleFN, @littleLN, @city, @streetAddress, @state, @postcode, @phone, @emailaddress, @matchstatus, @availabletime, @interetactivities, @image)" SelectCommand="SELECT * FROM [Big_little]" UpdateCommand="UPDATE [Big_little] SET [littleFN] = @littleFN, [littleLN] = @littleLN, [city] = @city, [streetAddress] = @streetAddress, [state] = @state, [postcode] = @postcode, [phone] = @phone, [emailaddress] = @emailaddress, [matchstatus] = @matchstatus, [availabletime] = @availabletime, [interetactivities] = @interetactivities, [image] = @image WHERE [userID] = @userID">
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:cs_Big %>" DeleteCommand="DELETE FROM [Big_little] WHERE [userID] = @userID" InsertCommand="INSERT INTO [Big_little] ([userID], [littleFN], [littleLN], [city], [streetAddress], [state], [postcode], [phone], [emailaddress], [matchstatus], [availabletime], [interetactivities], [image], [faractivities], [personality], [schoolsubject], [sport]) VALUES (@userID, @littleFN, @littleLN, @city, @streetAddress, @state, @postcode, @phone, @emailaddress, @matchstatus, @availabletime, @interetactivities, @image, @faractivities, @personality, @schoolsubject, @sport)" SelectCommand="SELECT * FROM [Big_little]" UpdateCommand="UPDATE [Big_little] SET [littleFN] = @littleFN, [littleLN] = @littleLN, [city] = @city, [streetAddress] = @streetAddress, [state] = @state, [postcode] = @postcode, [phone] = @phone, [emailaddress] = @emailaddress, [matchstatus] = @matchstatus, [availabletime] = @availabletime, [interetactivities] = @interetactivities, [faractivities] = @faractivities, [personality] = @personality, [schoolsubject] = @schoolsubject, [sport] = @sport WHERE [userID] = @userID">
             <DeleteParameters>
                 <asp:Parameter Name="userID" Type="Object" />
             </DeleteParameters>
@@ -43,6 +43,10 @@
                 <asp:Parameter Name="availabletime" Type="String" />
                 <asp:Parameter Name="interetactivities" Type="String" />
                 <asp:Parameter Name="image" Type="Object" />
+                <asp:Parameter Name="faractivities" Type="String" />
+                <asp:Parameter Name="personality" Type="String" />
+                <asp:Parameter Name="schoolsubject" Type="String" />
+                <asp:Parameter Name="sport" Type="String" />
             </InsertParameters>
             <UpdateParameters>
                 <asp:Parameter Name="littleFN" Type="String" />
@@ -57,6 +61,10 @@
                 <asp:Parameter Name="availabletime" Type="String" />
                 <asp:Parameter Name="interetactivities" Type="String" />
                 <asp:Parameter Name="image" Type="Object" />
+                <asp:Parameter Name="faractivities" Type="String" />
+                <asp:Parameter Name="personality" Type="String" />
+                <asp:Parameter Name="schoolsubject" Type="String" />
+                <asp:Parameter Name="sport" Type="String" />
                 <asp:Parameter Name="userID" Type="Object" />
             </UpdateParameters>
         </asp:SqlDataSource>
@@ -70,15 +78,18 @@
                 <asp:BoundField DataField="littleFN" HeaderText="First Name" SortExpression="littleFN" />
                 <asp:BoundField DataField="littleLN" HeaderText="Last Name" SortExpression="littleLN" />
                 <asp:BoundField DataField="city" HeaderText="City" SortExpression="city" />
-                <asp:BoundField DataField="streetAddress" HeaderText="Address" SortExpression="streetAddress" />
+                <asp:BoundField DataField="streetAddress" HeaderText="Street Address" SortExpression="streetAddress" />
                 <asp:BoundField DataField="state" HeaderText="State" SortExpression="state" />
                 <asp:BoundField DataField="postcode" HeaderText="Postal Code" SortExpression="postcode" />
                 <asp:BoundField DataField="phone" HeaderText="Phone Number" SortExpression="phone" />
                 <asp:BoundField DataField="emailaddress" HeaderText="Email Address" SortExpression="emailaddress" />
                 <asp:BoundField DataField="matchstatus" HeaderText="Match Status" SortExpression="matchstatus" />
                 <asp:BoundField DataField="availabletime" HeaderText="Available Time" SortExpression="availabletime" />
-                <asp:BoundField DataField="interetactivities" HeaderText="Interactivities" SortExpression="interetactivities" />
-                <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" ShowInsertButton="True" />
+                <asp:BoundField DataField="faractivities" HeaderText="Favorite Activities" SortExpression="faractivities" />
+                <asp:BoundField DataField="personality" HeaderText="Personality" SortExpression="personality" />
+                <asp:BoundField DataField="schoolsubject" HeaderText="Favorite School Subject" SortExpression="schoolsubject" />
+                <asp:BoundField DataField="sport" HeaderText="Favorite Sport" SortExpression="sport" />
+                <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
             </Fields>
             <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
             <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
