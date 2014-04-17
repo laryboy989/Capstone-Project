@@ -17,7 +17,9 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server">
 
 <p>If you want to become a Little in the future, Please fill in the following form first. We would love to pair you up with a mentor in the near future !</p>
-   
+   <p>
+     
+  
         <asp:CreateUserWizard ID="CreateUserWizard1" runat="server">
             <WizardSteps>
                 <asp:CreateUserWizardStep runat="server" >
@@ -96,7 +98,10 @@
                                     Complete</td>
                                 </tr>
                             <tr>
-                                <td>Your Account has been successfully created.</td>
+                                <td align="center"> Your Account has been successfully created. <br /><br /><br />
+
+
+                               <font color=”#0099ff”>     **** Please call the following number to schedule an interview Phone:(319) 337-2145 **** </font>  </td>
                                 </tr>
                             <tr>
                                 <td align="center">
@@ -108,5 +113,7 @@
                 </asp:CompleteWizardStep>
             </WizardSteps>
         </asp:CreateUserWizard>
+    
+       
 </asp:Content>
 
