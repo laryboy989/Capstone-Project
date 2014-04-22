@@ -1,25 +1,14 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Littledetails.aspx.vb" Inherits="Roles_employee_Littledetails" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/Site.master" AutoEventWireup="false" CodeFile="littledetails.aspx.vb" Inherits="Roles_employee_Littledetails" %>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title>Little Details</title>
-     <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
-    <form id="form1" runat="server">
-         <div class="page">
-        <div class="header">
-            <div class="title">
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server">
+ 
+        
+      
        
      <h1>Little Information &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
         </h1>
-         </div>
-    <br />
-    <br />
-    <br />
-    <br />
     <div>
     
         <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
@@ -99,6 +88,4 @@
         <br />
         <br />
         <h3><a href="Littletable.aspx" > Back to Little's </a></h3>
-    </form>
-</body>
-</html>
+</asp:Content>

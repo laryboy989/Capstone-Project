@@ -1,30 +1,16 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Volunteerdetails.aspx.vb" Inherits="Roles_employee_Volunteerdetails" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/Site.master" AutoEventWireup="false" CodeFile="volunteerdetails.aspx.vb" Inherits="Roles_employee_volunteerdetails" %>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
-    <form id="form1" runat="server">
-         <div class="page">
-        <div class="header">
-            <div class="title">
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server">
        
-     <h1>Volunteer Information &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+     <h1>Volunteer Information
         </h1>
-         </div>
-    <br />
-    <br />
-    <br />
-    <br />
-    <div>
     
+
         <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
     
-    </div>
+    
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:cs_Big %>" DeleteCommand="DELETE FROM [Big_volunteer] WHERE [userID] = @userID" InsertCommand="INSERT INTO [Big_volunteer] ([userID], [volunteerFN], [volunteerLN], [dob], [ssn], [emailadress], [matchstatus], [livingarea], [availabletime], [backgroundcheckstatus], [streetaddress], [city], [state], [postcode], [faractivities], [personality], [schoolsubject], [sport], [phone]) VALUES (@userID, @volunteerFN, @volunteerLN, @dob, @ssn, @emailadress, @matchstatus, @livingarea, @availabletime, @backgroundcheckstatus, @streetaddress, @city, @state, @postcode, @faractivities, @personality, @schoolsubject, @sport, @phone)" SelectCommand="SELECT * FROM [Big_volunteer]" UpdateCommand="UPDATE [Big_volunteer] SET [volunteerFN] = @volunteerFN, [volunteerLN] = @volunteerLN, [dob] = @dob, [ssn] = @ssn, [emailadress] = @emailadress, [matchstatus] = @matchstatus, [livingarea] = @livingarea, [availabletime] = @availabletime, [backgroundcheckstatus] = @backgroundcheckstatus, [streetaddress] = @streetaddress, [city] = @city, [state] = @state, [postcode] = @postcode, [faractivities] = @faractivities, [personality] = @personality, [schoolsubject] = @schoolsubject, [sport] = @sport, [phone] = @phone WHERE [userID] = @userID">
             <DeleteParameters>
                 <asp:Parameter Name="userID" Type="Object" />
@@ -105,6 +91,4 @@
             <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
         </asp:DetailsView>
     <h3><a href="Volunteertable.aspx" >Back To Volunteers</a></h3>
-    </form>
-</body>
-</html>
+</asp:Content>
