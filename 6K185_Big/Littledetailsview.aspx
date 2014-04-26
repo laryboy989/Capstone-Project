@@ -13,7 +13,7 @@
                 <asp:Parameter Name="userNumber" Type="Int32" />
             </DeleteParameters>
             <InsertParameters>
-                <asp:Parameter Name="userID" Type="Object" />
+                <asp:Parameter Name="userID" />
                 <asp:Parameter Name="littleFN" Type="String" />
                 <asp:Parameter Name="littleLN" Type="String" />
                 <asp:Parameter Name="city" Type="String" />
@@ -25,7 +25,7 @@
                 <asp:Parameter Name="matchstatus" Type="String" />
                 <asp:Parameter Name="availabletime" Type="String" />
                 <asp:Parameter Name="interetactivities" Type="String" />
-                <asp:Parameter Name="image" Type="Object" />
+                
                 <asp:Parameter Name="faractivities" Type="String" />
                 <asp:Parameter Name="personality" Type="String" />
                 <asp:Parameter Name="schoolsubject" Type="String" />
@@ -36,7 +36,7 @@
                 <asp:QueryStringParameter Name="userID" QueryStringField="UserId" Type="Object" />
             </SelectParameters>
             <UpdateParameters>
-                <asp:Parameter Name="userID" Type="Object" />
+                <asp:Parameter Name="userID"  />
                 <asp:Parameter Name="littleFN" Type="String" />
                 <asp:Parameter Name="littleLN" Type="String" />
                 <asp:Parameter Name="city" Type="String" />
@@ -48,7 +48,7 @@
                 <asp:Parameter Name="matchstatus" Type="String" />
                 <asp:Parameter Name="availabletime" Type="String" />
                 <asp:Parameter Name="interetactivities" Type="String" />
-                <asp:Parameter Name="image" Type="Object" />
+                
                 <asp:Parameter Name="faractivities" Type="String" />
                 <asp:Parameter Name="personality" Type="String" />
                 <asp:Parameter Name="schoolsubject" Type="String" />

@@ -31,7 +31,7 @@
                 <asp:Parameter Name="matchstatus" Type="String" />
                 <asp:Parameter Name="availabletime" Type="String" />
                 <asp:Parameter Name="interetactivities" Type="String" />
-                <asp:Parameter Name="image" Type="Object" />
+                <asp:Parameter Name="image"  />
                 <asp:Parameter Name="faractivities" Type="String" />
                 <asp:Parameter Name="personality" Type="String" />
                 <asp:Parameter Name="schoolsubject" Type="String" />
@@ -54,7 +54,7 @@
                 <asp:Parameter Name="matchstatus" Type="String" />
                 <asp:Parameter Name="availabletime" Type="String" />
                 <asp:Parameter Name="interetactivities" Type="String" />
-                <asp:Parameter Name="image" Type="Object" />
+                <asp:Parameter Name="image" />
                 <asp:Parameter Name="faractivities" Type="String" />
                 <asp:Parameter Name="personality" Type="String" />
                 <asp:Parameter Name="schoolsubject" Type="String" />
