@@ -47,7 +47,16 @@
         <asp:Image ID="BBBS1" runat="server" Height="277px" ImageUrl="~/image/BBBS1.jpg" Width="321px" /> 
         <br />
         <br />
-          <asp:Image ID="twitter" runat="server" Height="331px" ImageUrl="~/image/twitter.png" Width="321px" /> 
+
+        <ul>
+                      <li><h3>@BBBS (Twitter)</h3></li>
+                      <li><a class="twitter-timeline" height="340px" href="https://twitter.com/BBBSR" data-widget-id="460181430316707840">Tweets by @BBBSR</a>
+<script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
+
+
+
+                        </li>
+                  </ul>
         
         <h2>Contact us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h2>
         <br />BY MAIL
