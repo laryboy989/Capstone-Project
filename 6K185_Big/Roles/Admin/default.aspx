@@ -9,7 +9,6 @@
         <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="employeeID" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None">
             <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
             <Columns>
-                <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
                 <asp:BoundField DataField="employeeID" HeaderText="ID" ReadOnly="True" SortExpression="employeeID" />
                 <asp:BoundField DataField="employeeFN" HeaderText="First Name" SortExpression="employeeFN" />
                 <asp:BoundField DataField="employeeLN" HeaderText="Last Name" SortExpression="employeeLN" />
@@ -19,6 +18,7 @@
                 <asp:BoundField DataField="streetadress" HeaderText="Street Address" SortExpression="streetadress" />
                 <asp:BoundField DataField="city" HeaderText="City" SortExpression="city" />
                 <asp:BoundField DataField="postcode" HeaderText="PostCode" SortExpression="postcode" />
+                <asp:HyperLinkField DataNavigateUrlFields="employeeID" DataNavigateUrlFormatString="employeedetails.aspx?employeeID={0}" Text="Show Details" />
             </Columns>
             <EditRowStyle BackColor="#999999" />
             <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
