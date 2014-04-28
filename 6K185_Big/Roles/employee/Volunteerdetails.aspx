@@ -86,8 +86,6 @@
                 <asp:BoundField DataField="schoolsubject" HeaderText="Favorite Subject" SortExpression="schoolsubject" />
                 <asp:BoundField DataField="sport" HeaderText="Favorite Sport" SortExpression="sport" />
                 <asp:BoundField DataField="phone" HeaderText="Phone Number" SortExpression="phone" />
-                <asp:BoundField DataField="RoleName" HeaderText="Role Name" SortExpression="RoleName" />
-                <asp:BoundField DataField="VolunteerID" HeaderText="Volunteer ID" InsertVisible="False" ReadOnly="True" SortExpression="VolunteerID" />
                 <asp:CommandField ShowEditButton="True" />
             </Fields>
             <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
