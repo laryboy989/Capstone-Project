@@ -67,27 +67,27 @@
             <EditRowStyle BackColor="#999999" />
             <FieldHeaderStyle BackColor="#E9ECF1" Font-Bold="True" />
             <Fields>
-                <asp:BoundField DataField="UserName" HeaderText="UserName" SortExpression="UserName" />
-                <asp:BoundField DataField="volunteerFN" HeaderText="volunteerFN" SortExpression="volunteerFN" />
-                <asp:BoundField DataField="volunteerLN" HeaderText="volunteerLN" SortExpression="volunteerLN" />
-                <asp:BoundField DataField="dob" HeaderText="dob" SortExpression="dob" />
-                <asp:BoundField DataField="ssn" HeaderText="ssn" SortExpression="ssn" />
-                <asp:BoundField DataField="emailadress" HeaderText="emailadress" SortExpression="emailadress" />
-                <asp:BoundField DataField="matchstatus" HeaderText="matchstatus" SortExpression="matchstatus" />
-                <asp:BoundField DataField="livingarea" HeaderText="livingarea" SortExpression="livingarea" />
-                <asp:BoundField DataField="availabletime" HeaderText="availabletime" SortExpression="availabletime" />
-                <asp:BoundField DataField="backgroundcheckstatus" HeaderText="backgroundcheckstatus" SortExpression="backgroundcheckstatus" />
-                <asp:BoundField DataField="streetaddress" HeaderText="streetaddress" SortExpression="streetaddress" />
-                <asp:BoundField DataField="city" HeaderText="city" SortExpression="city" />
-                <asp:BoundField DataField="state" HeaderText="state" SortExpression="state" />
-                <asp:BoundField DataField="postcode" HeaderText="postcode" SortExpression="postcode" />
-                <asp:BoundField DataField="faractivities" HeaderText="faractivities" SortExpression="faractivities" />
-                <asp:BoundField DataField="personality" HeaderText="personality" SortExpression="personality" />
-                <asp:BoundField DataField="schoolsubject" HeaderText="schoolsubject" SortExpression="schoolsubject" />
-                <asp:BoundField DataField="sport" HeaderText="sport" SortExpression="sport" />
-                <asp:BoundField DataField="phone" HeaderText="phone" SortExpression="phone" />
-                <asp:BoundField DataField="RoleName" HeaderText="RoleName" SortExpression="RoleName" />
-                <asp:BoundField DataField="VolunteerID" HeaderText="VolunteerID" InsertVisible="False" ReadOnly="True" SortExpression="VolunteerID" />
+                <asp:BoundField DataField="UserName" HeaderText="User Name" SortExpression="UserName" />
+                <asp:BoundField DataField="volunteerFN" HeaderText="First Name" SortExpression="volunteerFN" />
+                <asp:BoundField DataField="volunteerLN" HeaderText="Last Name" SortExpression="volunteerLN" />
+                <asp:BoundField DataField="dob" HeaderText="Date Of Birth" SortExpression="dob" />
+                <asp:BoundField DataField="ssn" HeaderText="Social Security Number" SortExpression="ssn" />
+                <asp:BoundField DataField="emailadress" HeaderText="Email Address" SortExpression="emailadress" />
+                <asp:BoundField DataField="matchstatus" HeaderText="Match Status" SortExpression="matchstatus" />
+                <asp:BoundField DataField="livingarea" HeaderText="Living Area" SortExpression="livingarea" />
+                <asp:BoundField DataField="availabletime" HeaderText="Available Time" SortExpression="availabletime" />
+                <asp:BoundField DataField="backgroundcheckstatus" HeaderText="Background Check Status" SortExpression="backgroundcheckstatus" />
+                <asp:BoundField DataField="streetaddress" HeaderText="Street Address" SortExpression="streetaddress" />
+                <asp:BoundField DataField="city" HeaderText="City" SortExpression="city" />
+                <asp:BoundField DataField="state" HeaderText="State" SortExpression="state" />
+                <asp:BoundField DataField="postcode" HeaderText="Postal Code" SortExpression="postcode" />
+                <asp:BoundField DataField="faractivities" HeaderText="Favorite Activities" SortExpression="faractivities" />
+                <asp:BoundField DataField="personality" HeaderText="Personality Type" SortExpression="personality" />
+                <asp:BoundField DataField="schoolsubject" HeaderText="Favorite Subject" SortExpression="schoolsubject" />
+                <asp:BoundField DataField="sport" HeaderText="Favorite Sport" SortExpression="sport" />
+                <asp:BoundField DataField="phone" HeaderText="Phone Number" SortExpression="phone" />
+                <asp:BoundField DataField="RoleName" HeaderText="Role Name" SortExpression="RoleName" />
+                <asp:BoundField DataField="VolunteerID" HeaderText="Volunteer ID" InsertVisible="False" ReadOnly="True" SortExpression="VolunteerID" />
                 <asp:CommandField ShowEditButton="True" />
             </Fields>
             <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
