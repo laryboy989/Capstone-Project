@@ -88,7 +88,7 @@
                 <asp:BoundField DataField="sport" HeaderText="Favorite Sport" SortExpression="sport" />
                 <asp:BoundField DataField="littleID" HeaderText="Identification Number" InsertVisible="False" ReadOnly="True" SortExpression="littleID" />
                 <asp:BoundField DataField="UserName" HeaderText="User Name" SortExpression="UserName" ReadOnly="True" />
-                <asp:BoundField DataField="userID" HeaderText="User ID" SortExpression="userID" ReadOnly="True" />
+                <asp:BoundField DataField="userID" HeaderText="User ID" SortExpression="userID" />
                 <asp:CommandField ShowEditButton="True" />
             </Fields>
             <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
