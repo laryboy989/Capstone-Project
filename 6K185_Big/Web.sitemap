@@ -6,8 +6,7 @@
       
       <siteMapNode url="~/little.aspx" title="Prospective Little"  description="" />
       <siteMapNode url="~/volunteer.aspx" title="Prospective Volunteer"  description="" />
-      <siteMapNode url="~/roles/little/default.aspx" title="Littles"  description="" />
-      <siteMapNode url="~/roles/volunteer/default.aspx" title="Volunteers"  description="" />
+      <siteMapNode url="~/roles/MyAccount/default.aspx" title="My Account"  description="" />
       <siteMapNode url="~/roles/employee/default.aspx" title="Employees"  description="" >
                 <siteMapNode url="~/roles/employee/Littletable.aspx" title="Littles' Table"  description="" />
                 <siteMapNode url="~/roles/employee/Volunteertable.aspx" title="volunteers' Table"  description="" />
