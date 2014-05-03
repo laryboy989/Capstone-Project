@@ -3,6 +3,13 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server">
+
+     <asp:TextBox ID="tb_searchlittle" AutoPostBack="true" Placeholder="Search by Last Name, First Name, or Available Time" runat="server" Width="500px"></asp:TextBox>
+               
+                 <span class="input-group-btn">
+                 <asp:Button ID="btsearchlittle" runat="server" Text="Search" />
+                 </span>
+
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" AllowPaging="True" AllowSorting="True" CellPadding="4" ForeColor="#333333" GridLines="None" Height="302px" Width="782px" DataKeyNames="littleID">
         <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
         <Columns>
