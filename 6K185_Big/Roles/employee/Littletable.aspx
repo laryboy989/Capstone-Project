@@ -10,7 +10,7 @@
                  <asp:Button ID="btsearchlittle" runat="server" Text="Search" />
                  </span>
 
-    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" AllowPaging="True" AllowSorting="True" CellPadding="4" ForeColor="#333333" GridLines="None" Height="302px" Width="782px" DataKeyNames="littleID">
+    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" AllowPaging="True" AllowSorting="True" CellPadding="4" ForeColor="#333333" GridLines="None" Height="305px" Width="467px" DataKeyNames="littleID">
         <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
         <Columns>
             <asp:BoundField DataField="UserName" HeaderText="User Name" SortExpression="UserName" />
@@ -22,7 +22,6 @@
             <asp:BoundField DataField="postcode" HeaderText="Post Code" SortExpression="postcode" />
             <asp:BoundField DataField="phone" HeaderText="Phone" SortExpression="phone" />
             <asp:BoundField DataField="emailaddress" HeaderText="Email Address" SortExpression="emailaddress" />
-            <asp:BoundField DataField="matchstatus" HeaderText="Match Status" SortExpression="matchstatus" />
             <asp:BoundField DataField="availabletime" HeaderText="Available Time" SortExpression="availabletime" />
             <asp:BoundField DataField="faractivities" HeaderText="Favorite Activities" SortExpression="faractivities" />
             <asp:BoundField DataField="sport" HeaderText="Interested Sport" SortExpression="sport" />
