@@ -107,6 +107,12 @@
     </asp:CreateUserWizard>
 
 
+    <div id="totheright">
+         
+        <asp:Image ID="volunteer" runat="server" Height="297px" ImageUrl="~/image/volunteer.jpg" Width="365px" />   
+      
+                </div>
+
 
 
 </asp:Content>

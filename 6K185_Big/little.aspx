@@ -90,6 +90,8 @@
                 </asp:WizardStep>
 
 
+
+
                 <asp:CompleteWizardStep runat="server" >
                     <ContentTemplate>
                         <table>
@@ -113,6 +115,13 @@
                 </asp:CompleteWizardStep>
             </WizardSteps>
         </asp:CreateUserWizard>
+
+
+                   <div id="totheright">
+         
+        <asp:Image ID="littleBrother" runat="server" Height="297px" ImageUrl="~/image/littleBrother.jpg" Width="365px" />   
+      
+                </div>
     
        
 </asp:Content>

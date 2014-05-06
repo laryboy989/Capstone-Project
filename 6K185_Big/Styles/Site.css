@@ -46,6 +46,12 @@ p
     padding:5px 5px 5px 5px;
     width:auto;
 }
+
+#totheright {float:right;
+    margin:2px 2px 2px 2px;
+    padding:5px 5px 5px 5px;
+    width:auto;
+}
 /* HEADINGS   
 ----------------------------------------------------------*/
 
