@@ -19,7 +19,7 @@
             <asp:BoundField DataField="postcode" HeaderText="Post Code" SortExpression="postcode" />
             <asp:BoundField DataField="phone" HeaderText="Phone" SortExpression="phone" />
             <asp:BoundField DataField="emailaddress" HeaderText="Email Address" SortExpression="emailaddress" />
-            <asp:BoundField DataField="matchstatus" HeaderText="Match Status" SortExpression="matchstatus" />
+            <asp:BoundField DataField="matchstatus" HeaderText="Match Status" SortExpression="matchstatus" ReadOnly="True" />
             <asp:BoundField DataField="availabletime" HeaderText="Available Time" SortExpression="availabletime" />
             <asp:BoundField DataField="interetactivities" HeaderText="Interested Activities" SortExpression="interetactivities" />
             <asp:BoundField DataField="faractivities" HeaderText="Farivorte Activities" SortExpression="faractivities" />
